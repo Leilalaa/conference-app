@@ -1,0 +1,17 @@
+// TO DO :
+// Faire lien session/speaker avec ID
+
+  <h1 class="ui header" align="center"> ${speaker.firstname} ${speaker.lastname}.toUpperCase() </h1>
+
+  <img class="rounded mx-auto d-block" width=200px src="/images/${speakers.image}">
+
+
+  <p align="center">Ses présentations</p>
+  <div class="d-flex flex-row flex-wrap">
+    ${speaker.presentation}.forEach(){
+    <div class="p-2">
+          ${titre}
+    </div>
+  }
+
+  </div>

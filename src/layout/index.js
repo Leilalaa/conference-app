@@ -1,5 +1,5 @@
 import layout from './layout.html'
-var $ = require('jquery')
+import $ from 'jquery'
 
 
 export class Layout{
@@ -8,4 +8,5 @@ export class Layout{
   $("body").html(layout);
 
   }
+
 }
