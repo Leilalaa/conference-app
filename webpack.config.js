@@ -11,5 +11,11 @@ filename: "bundle.js"
 },
 plugins: [
   new HtmlWebpackPlugin()
-]
+],
+module: {
+  rules: [{
+    test: /\.html$/,
+    use: 'html-loader'
+  }]
+}
 };
